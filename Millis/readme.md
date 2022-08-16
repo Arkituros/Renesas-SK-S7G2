@@ -5,16 +5,28 @@
 - use the function "millis_init([your timer object])";
 - The function millis() returns the millis value;
 
+## Example
 
-####Code Blocks (Indented style)
+- Example of the main code for the use of this library
 
-Indented 4 spaces, like `<pre>` (Preformatted Text).
+<pre>
+    <code>
+        /* HAL-only entry function */
+        #include "hal_data.h"
+        #include "millis.h"
+        
+        uint16_t mili;
 
-    <?php
-        echo "Hello world!";
-    ?>
-
-
+        void hal_entry(void)
+        {
+            millis_init (g_timer); //AGT Instance created with HAL
+            while(1)
+            {
+                mili = millis();
+            }
+        }
+    </code>
+</pre>
 
 ### [Created by Arkituros](https://github.com/Arkituros/ "Created by Arkituros")
 
