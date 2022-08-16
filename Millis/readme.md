@@ -6,4 +6,8 @@
 - The function millis() returns the millis value;
 
 <link rel="stylesheet" href="https://github.com/Arkituros" />
+    <textarea style="display:none;">### Editor.md
+
+**Editor.md**: The open source embeddable online markdown editor, based on CodeMirror & jQuery & Marked.
+    </textarea>
 ### Created by Arkituros
