@@ -1,4 +1,4 @@
-### How To Use
+# How To Use
 
 - Include millis.h to the main code;
 - Using Renesas HAL create a timer object;
@@ -6,4 +6,4 @@
 - The function millis() returns the millis value;
 
 
-# Created by Arkituros
+### Created by Arkituros
