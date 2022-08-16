@@ -7,7 +7,7 @@
 
 ## Example
 
-- Example of the main code for the use of this library
+- Example of hal_entry.c use
 
 <pre>
 <code>/* HAL-only entry function */
