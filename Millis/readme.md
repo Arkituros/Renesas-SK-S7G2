@@ -10,22 +10,20 @@
 - Example of the main code for the use of this library
 
 <pre>
-    <code>
-        /* HAL-only entry function */
-        #include "hal_data.h"
-        #include "millis.h"
+    <code>/* HAL-only entry function */
+#include "hal_data.h"
+#include "millis.h"
         
-        uint16_t mili;
+uint16_t mili;
 
-        void hal_entry(void)
-        {
-            millis_init (g_timer); //AGT Instance created with HAL
-            while(1)
-            {
-                mili = millis();
-            }
-        }
-    </code>
+void hal_entry(void)
+{
+    millis_init (g_timer); //AGT Instance created with HAL
+    while(1)
+    {
+        mili = millis();
+    }
+}</code>
 </pre>
 
 ### [Created by Arkituros](https://github.com/Arkituros/ "Created by Arkituros")
