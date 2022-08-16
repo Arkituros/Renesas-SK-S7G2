@@ -10,7 +10,7 @@
 - Example of the main code for the use of this library
 
 <pre>
-    <code>/* HAL-only entry function */
+<code>/* HAL-only entry function */
 #include "hal_data.h"
 #include "millis.h"
         
