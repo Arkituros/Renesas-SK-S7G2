@@ -12,4 +12,6 @@
 **Editor.md**: The open source embeddable online markdown editor, based on CodeMirror & jQuery & Marked.
     </textarea>
     </div>
+    #Heading 1 link [Heading link](https://github.com/pandao/editor.md "Heading link")
+
 ### Created by Arkituros
